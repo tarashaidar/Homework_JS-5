@@ -18,3 +18,21 @@ function reverse(str) {
     return str.split(``).reverse().join(``);
 }
 console.log(reverse(`abc`)); //cba
+//////////////////////////////////
+
+
+
+////done with classes////////////
+class Reverse{
+    constructor(str){
+        this.str = str;
+    }
+
+    reverseWords(){
+        return console.log(this.str.split(``).reverse().join(``));
+    }
+}
+
+let reversed = new Reverse(`haidar`);
+reversed.reverseWords();
+////done with classes/////////////
