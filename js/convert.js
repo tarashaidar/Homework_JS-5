@@ -6,7 +6,6 @@ let result = convert(10);
 console.log("Enter sum:" , result);
 //////////////////////////////////
 
-
 ////done with classes////////////
 class Converter {
 	constructor (amount) {
