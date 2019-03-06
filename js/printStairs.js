@@ -10,3 +10,28 @@ function printStairs(n) {
 
 }
 printStairs(3);//Write your number
+//////////////////////////////////
+
+
+////done with classes////////////
+class Print{
+    constructor(number){
+        this.newstair = ``
+        this.number = number;
+        this.index = 0;
+    }
+    print_stairs(){
+        do{
+            this.newstair+=`#`;
+            console.log(this.newstair);
+            this.index++;
+        } while (this.index<this.number) {
+        return this.newstair;    
+        }
+
+    }
+}
+
+let print_smth = new Print(3);
+print_smth.print_stairs();
+////done with classes/////////////
